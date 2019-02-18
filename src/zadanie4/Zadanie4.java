@@ -6,7 +6,7 @@ public class Zadanie4 {
     public static void main(String[] args) {
         //liczba kolumn i rekordów
         int columns = 5;
-        int records = 5;
+        int records = 50;
 
         //tablice jednowymiarowe o długosci zadeklarowanych kolumn do przechowywania max'ów i min'ów;
         int maxValue[] = new int[columns];
@@ -19,7 +19,7 @@ public class Zadanie4 {
         Random random = new Random();
 
         //Ustawiamay zakres najwyższych i najniższych wartości do wstawiania w matrixa
-        int topBound = 5;
+        int topBound = 50;
         int bottomBound = -5;
 
         //pętla w pętli zapisuje losowe wartości w matrixie
@@ -31,7 +31,7 @@ public class Zadanie4 {
             }
         }
         //Zapisujemy w tablicy Max najniższą wartość (bottomBound) dla wszystkich indexów, a dla min najwyższą (topBound)
-        for (int i = 0; i < records; i++) {
+        for (int i = 0; i < columns; i++) {
             maxValue[i] = bottomBound;
             minValue[i] = topBound;
         }
