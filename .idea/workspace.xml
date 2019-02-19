@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bf68ea6-ab75-4df2-ac38-a9b06ac64fd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/zadanie4/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/zadanie4/Zadanie4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/zadanie4/Zadanie4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWork/zadanie5/Zadanie5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/zadanie5/Zadanie5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zadanie4/Zadanie4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadanie4/Zadanie4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zadanie5/Zadanie5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadanie5/Zadanie5.java" afterDir="false" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zadanie5/Zadanie5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zadanie4/Zadanie4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zadanie4/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <folding>
+                <element signature="e#2250#2251#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +68,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zadanie4/Zadanie4.java" />
         <option value="$PROJECT_DIR$/src/zadanie5/Zadanie5.java" />
+        <option value="$PROJECT_DIR$/src/zadanie4/Zadanie4.java" />
+        <option value="$PROJECT_DIR$/src/zadanie4/Zadanie4_b.java" />
+        <option value="$PROJECT_DIR$/src/zadanie4/Matrix.java" />
       </list>
     </option>
   </component>
@@ -105,7 +120,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550525803116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550564481502" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zadanie4" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,7 +139,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zadanie5">
+  <component name="RunManager" selected="Application.Matrix">
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadanie4.Matrix" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Zadanie4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadanie4.Zadanie4" />
       <module name="HomeWork" />
@@ -148,8 +181,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zadanie5" />
+        <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.Zadanie4" />
+        <item itemvalue="Application.Zadanie5" />
       </list>
     </recent_temporary>
   </component>
@@ -175,15 +209,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.18456884" />
-      <window_info id="Structure" order="1" sideWeight="0.5019455" side_tool="true" visible="true" weight="0.18456884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8097345" visible="true" weight="0.18456884" />
+      <window_info id="Structure" order="1" sideWeight="0.19026549" side_tool="true" visible="true" weight="0.18456884" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58006537" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26143792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -199,17 +233,28 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zadanie4/Zadanie4.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie5/Zadanie5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie5/Zadanie5.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie4/Zadanie4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie4/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

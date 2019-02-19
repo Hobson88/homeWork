@@ -3,10 +3,9 @@ package zadanie5;
 public class Zadanie5 {
     public static void main(String[] args) {
 
-        int amplituda = 10;
-
+        int amplituda = 20;
         int ileKrokowNaPelnyKat = 20;
-        int liczbaWierszy = 40;
+        int liczbaWierszy = 60;
 
 
         //zaklęcie :)

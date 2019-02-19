@@ -5,8 +5,8 @@ import java.util.Random;
 public class Zadanie4 {
     public static void main(String[] args) {
         //liczba kolumn i rekordów
-        int columns = 20;
-        int records = 9;
+        int columns = 5;
+        int records = 5;
 
         //tablice jednowymiarowe o długosci zadeklarowanych kolumn do przechowywania max'ów i min'ów;
         int maxValue[] = new int[columns];
@@ -19,8 +19,8 @@ public class Zadanie4 {
         Random random = new Random();
 
         //Ustawiamay zakres najwyższych i najniższych wartości do wstawiania w matrixa
-        int topBound = 50;
-        int bottomBound = -20;
+        int topBound = 5;
+        int bottomBound = -5;
 
         //pętla w pętli zapisuje losowe wartości w matrixie
         for (int i = 0; i < records; i++) {
